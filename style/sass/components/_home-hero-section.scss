@@ -1,0 +1,37 @@
+.hero{
+    height: 100vh;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.147);
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 10px;
+
+    &__inp{
+        padding: 0 20px;
+        width: 50%;
+        height: 40px;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        border: none;
+    }
+
+    &__btn{
+        margin-left: 30px;
+        padding: 0 20px;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        
+        &:hover{
+            color: #fff;
+            background-color: aqua;
+        }
+
+        &:active{
+            background-color: rgb(85, 244, 85);
+        }
+    }
+}
